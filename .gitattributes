@@ -1,2 +1,13 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+#include<stdio.h>
+void main()
+{
+    int a = 10;
+    int b = 5;
+    int c = 3;
+    
+    int ans = a + b - c;
+    printf("\n ans = %d",ans);
+    
+     ans = a - b + c;
+    printf("\n ans = %d",ans);
+}
